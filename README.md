@@ -34,3 +34,6 @@ Currently, two official plugins are available:
 
 #### Icons
 - `npm i react-icons`
+
+#### router
+- `npm i react-router-dom`
