@@ -31,3 +31,6 @@ Currently, two official plugins are available:
 - `npm install -D tailwindcss postcss autoprefixer`
 - `npx tailwindcss init -p`
 - re-run npm
+
+#### Icons
+- `npm i react-icons`
