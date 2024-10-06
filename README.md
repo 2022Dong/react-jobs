@@ -37,3 +37,8 @@ Currently, two official plugins are available:
 
 #### router
 - `npm i react-router-dom`
+
+#### JSON Server setup
+- `npm i -D json-server`
+- package.json file add `"server": "json-server --watch src/jobs.json --port 8000"`
+- `npm run server`
