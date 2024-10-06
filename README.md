@@ -42,3 +42,6 @@ Currently, two official plugins are available:
 - `npm i -D json-server`
 - package.json file add `"server": "json-server --watch src/jobs.json --port 8000"`
 - `npm run server`
+
+#### Loading spinner
+- `npm i react-spinners`
