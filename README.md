@@ -26,6 +26,7 @@ Currently, two official plugins are available:
 
 #### Extension
 - ES7 React/Redux/GraphQL/React-Native snippets
+- Multiple cursor case preserve
 
 #### Install Tailwind
 - `npm install -D tailwindcss postcss autoprefixer`

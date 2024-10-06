@@ -16,9 +16,9 @@ import AddJobPage from "./pages/AddJobPage";
 const router = createBrowserRouter(
   createRoutesFromElements(
     <Route path="/" element={<MainLayout />}>
-      <Route index element={<HomePage />} />
-      <Route path="/jobs" element={<JobsPage />} />      
       <Route path="/jobs/:id" element={<JobPage />} loader={jobLoader} />
+      <Route index element={<HomePage />} />
+      <Route path="/jobs" element={<JobsPage />} />
       <Route path="*" element={<NotFoundPage />} />
       <Route path="/add-job" element={<AddJobPage />} />
     </Route>
