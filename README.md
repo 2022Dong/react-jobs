@@ -46,3 +46,6 @@ Currently, two official plugins are available:
 
 #### Loading spinner
 - `npm i react-spinners`
+
+#### 
+ - `npm i react-toastify`
